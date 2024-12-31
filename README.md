@@ -33,12 +33,12 @@ cargo build --release
 Run the application from the command line:
 
 ```bash
-cargo run -- <shift> <input_file> <output_file>
+cargo run -- <input_file> <output_file> <shift>
 ```
 
-- `<shift>`: The number of positions to shift characters in the Caesar cipher.
 - `<input_file>`: Path to the file containing plaintext.
 - `<output_file>`: Path where the encoded text will be written.
+- `<shift>`: The number of positions to shift characters in the Caesar cipher.
 
 ### Example
 
@@ -51,7 +51,7 @@ Hello, World!
 Run the application as follows:
 
 ```bash
-cargo run -- 3 input.txt output.txt
+cargo run -- input.txt output.txt 3
 ```
 
 The file `output.txt` will contain:
@@ -84,4 +84,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 Happy coding! 🎉
-``` 
+```
