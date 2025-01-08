@@ -1,4 +1,4 @@
-# Caesar Cipher Application
+# Caesar Cipher Algorithm
 
 This Rust application reads a text from an input file, applies the Caesar cipher encoding algorithm, and writes the encoded text to an output file. The shift value for the cipher can be customized via command-line arguments.
 
